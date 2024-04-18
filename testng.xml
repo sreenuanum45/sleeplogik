@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.MyListeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Myprojects/sleeplogik.task/src/test/java/Testcases">
+        <classes><class name="Testcases.Brands">
+            <methods>
+                <include name="LoadTheDunlopillopageAndVerifyThatAllElementsLoadCorrectly"/>
+                <include name="VerifyThatTheInformationAboutTheDunlopilloLatexPillowsIsDisplayedCorrectly"/>
+                <include name="LoadTheNestHomePageAndVerifyThatAllElementsLoadCorrectly"/>
+                <include name="LoadTheLauraAshleyAndVerifyThatAllElementsLoadCorrectly"/>
+            </methods>
+        </class><class name="Testcases.Products">
+            <methods>
+                <include name="LoadTheBedRoomPageAndVerifyThatAllElementsLoadcorrectly"/>
+                <include name="VerifyThatTheInformationAboutTheBedRoomProductsIsDisplayedCorrectly"/>
+                <include name="LoadTheLivingRoomPageAndVerifyThatAllElementsLoadcorrectly"/>
+                <include name="VerifyThatTheInformationAboutTheLivingRoomProductsIsDisplayedCorrectly"/>
+                <include name="LoadTheBathRoomPageAndVerifyThatAllElementsLoadcorrectly"/>
+                <include name="VerifyThatTheInformationAboutTheBathRoomRoomProductsIsDisplayedCorrectly"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
